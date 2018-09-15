@@ -65,7 +65,7 @@ a.work, a.about, a.contact {
 	font-size: 32px;
 	color: black;
 	left: 8%;
-	font-family: "Bebas";
+	font-family: "Anton";
 }
 
 
@@ -113,6 +113,13 @@ img.center {
 	margin: auto;
 	display: block;
 	text-align: center;
+}
+
+img.inline {
+	margin: auto;
+	display: inline-block;
+	text-align: center;
+	padding: 0.1%;
 }
 
 div.center {	
