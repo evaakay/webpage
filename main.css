@@ -1,0 +1,232 @@
+body {
+	position: relative;
+	margin: 0;
+	padding-bottom: 6rem;
+	background-color: #f2f2f2;
+	/*margin-left: 10%;*/
+	/*margin-right: 10%;*/
+	margin-top: 40px;
+	/*margin-bottom: 80px;*/
+	overflow: scroll;
+}
+
+@font-face{
+    font-family: "Bebas";
+    src: url('Bebas.ttf');
+}
+
+h1 {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+}
+
+p {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 10px;
+	line-height: 15px;
+	display: inline-block;
+}
+
+nav {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
+	position: fixed;
+	top: 20%;
+	left: 8%;
+}
+
+a:link, a:visited {
+	text-decoration: none;
+	transition: 0.3s;
+	color: #c6c6c6;
+}
+
+a:hover, a:active {
+	text-decoration: none;
+	color: black;
+}
+
+
+a.work, a.about, a.contact {
+	line-height: 30px;
+}
+
+#name {
+	position: fixed;
+	top: 10%;
+	font-size: 32px;
+	color: black;
+	left: 8%;
+	font-family: "Bebas";
+}
+
+
+.footer {
+	position: fixed;
+	bottom: 10%;
+	left: 8%;
+	color: #c6c6c6;
+}
+
+/*#socials {
+	display: block;
+	text-align: center;
+	padding-top: 70px;
+}*/
+
+a.fa {
+	font-size: 12px;
+	width: 20px;
+	text-decoration: none;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-instagram, .fa-linkedin, .fa-facebook {
+	display: inline-block;
+}
+
+
+
+
+/*WORK PAGE*/
+
+.description {
+	display: block;
+	margin: auto;
+	width: 50%;
+	text-align: justify;
+    text-justify: inter-word;
+    color: black;
+}
+
+img.center {
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+div.center {	
+	margin: auto;
+	display: block;
+	text-align: center;
+}
+
+/*ABOUT*/
+.me {
+	display: block;
+	text-align: justify;
+	margin: auto;
+	width: 50%;
+    text-justify: inter-word;
+}
+
+.metext {
+	display: inline-block;
+	text-align: justify;
+	text-justify: inter-word;
+/*	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 10px;
+	line-height: 15px;*/
+/*	position: relative;*/
+}
+
+
+.portrait {
+	display: inline-block;
+	box-shadow: 8px 8px 17px #c6c6c6;
+	vertical-align: top;
+	margin-top:5%;
+	position: relative;
+}
+
+/*HOME*/
+
+.works {
+	display: block;
+	text-align: center;
+	position: relative;
+	left: 25%;
+	max-width: 70%;
+}
+.gallery {
+	display: inline-block;
+	text-align: justify;
+	position: relative;
+}
+
+.previewImg {
+	-webkit-filter: grayscale(1);
+	-webkit-filter: contrast(1);
+	cursor: pointer;
+	transition: 0.3s;
+/*	display: inline-block;
+	text-align: center;*/
+	margin: 1% 0.5%;
+  	filter: contrast(1.2) grayscale(100%);
+  	max-height: 220px;
+  	-webkit-transition: scale(1);
+  	transition: scale(1.02) .2s;
+}
+
+.previewImg:hover {
+	-webkit-filter: grayscale(1);
+	filter: grayscale(0%);
+    -webkit-transition: scale(1);
+    transform: scale(1.02);
+ }
+
+/*CONTACT*/
+
+
+form {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	display: block;
+	text-align: center;
+	text-justify: inter-word;
+}
+
+input[type=text] {
+	width: 30%;
+	padding: 5px 8px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
+	resize: none;
+	border: 1px solid #c6c6c6;
+}
+input[type=submit], [type=reset] {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	cursor: pointer;
+	text-decoration: none;
+	margin: 2px 2px;
+	border: none;
+	background-color: white;
+	color: #767676;
+	padding: 5px 13px;
+}
+
+input[type=submit]:hover, [type=reset]:hover {
+	color: black;
+}
+
+#comment {
+	width: 30%;
+	height: 100px;
+	box-sizing: border-box;
+}
+
+
+
+
+
