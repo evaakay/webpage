@@ -109,14 +109,14 @@ a.fa {
     color: black;
 }
 
-img.center {
+.center {
 	margin: auto;
 	display: block;
 	text-align: center;
 	width: 50%;
 }
 
-img.inline {
+.inline {
 	display: inline-block;
 	padding: 0.1%;
 	max-width: 45%;
@@ -232,12 +232,6 @@ input[type=submit]:hover, [type=reset]:hover {
 
 
 @media screen and (max-width: 1020px) {
-	#name {
-		position: fixed;
-		top: 5%;
-		font-size: 40px;
-		text-align: center;
-	}
 	.works {
 		display: block;
 		text-align: center;
@@ -271,7 +265,7 @@ input[type=submit]:hover, [type=reset]:hover {
    		text-justify: inter-word;
     	color: black;
 	}
-	img.center {
+	.center {
 		margin: auto;
 		display: block;
 		text-align: center;
@@ -279,7 +273,9 @@ input[type=submit]:hover, [type=reset]:hover {
 	}
 	
 	.footer {
-		display: none;
-	}	
+		position: relative;
+		bottom: 10%;
+		color: #c6c6c6;
+}	
 }
 
