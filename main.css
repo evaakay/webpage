@@ -249,13 +249,14 @@ input[type=submit]:hover, [type=reset]:hover {
 	.works {
 		display: block;
 		text-align: center;
-		position: relative;
 		width: 90%;
+		margin: auto;
 	}
 	.gallery {
 		display: block;
 		text-align: center;
 		position: relative;
+		margin: auto;
 	}
 	.previewImg {
 		-webkit-filter: grayscale(1);
@@ -266,7 +267,7 @@ input[type=submit]:hover, [type=reset]:hover {
 	text-align: center;*/
 		margin: 1% 0.5%;
   		filter: contrast(1.2) grayscale(100%);
-  		max-height: 230px;
+  		max-width: 230px;
   		-webkit-transition: scale(1);
   		transition: scale(1.02) .2s;
 	}
