@@ -259,11 +259,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		text-align: center;
 		position: relative;
 	}
-	.previewImg {
-		margin: 1% 0.5%;
-  		filter: contrast(1.2) grayscale(100%);
-  		width: 90%;
-	}
+	
 	.footer {
 		display: none;
 	}
