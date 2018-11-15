@@ -239,9 +239,6 @@ input[type=submit]:hover, [type=reset]:hover {
 
 
 @media screen and (max-width: 1020px) {
-	nav {
-		display: none;
-	}
 	#name {
 		position: fixed;
 		top: 5%;
@@ -252,7 +249,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		display: block;
 		text-align: center;
 		position: relative;
-		max-width: 90%;
+		max-width: 100%;
 	}
 	.gallery {
 		display: block;
@@ -262,8 +259,6 @@ input[type=submit]:hover, [type=reset]:hover {
 	
 	.footer {
 		display: none;
-	}
-	
-	
+	}	
 }
 
