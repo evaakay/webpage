@@ -276,6 +276,19 @@ input[type=submit]:hover, [type=reset]:hover {
 		position: relative;
 		bottom: 10%;
 		color: #c6c6c6;
-}	
+		text-align: center;
+		display: block;
+	}
+	nav {
+		display: none;
+	}
+	#name {
+		position: fixed;
+		text-align: center;
+		top: 10%;
+		font-size: 32px;
+		color: black;
+		font-family: "Anton";
+}
 }
 
