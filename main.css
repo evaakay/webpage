@@ -258,20 +258,15 @@ input[type=submit]:hover, [type=reset]:hover {
 		display: none;
 	}
 	.previewImg {
-		-webkit-filter: grayscale(1);
-		-webkit-filter: contrast(1);
-		cursor: pointer;
-		transition: 0.3s;
-/*	display: inline-block;
-	text-align: center;*/
 		margin: 1% 0.5%;
   		filter: contrast(1.2) grayscale(100%);
   		max-width: 200px;
-  		-webkit-transition: scale(1);
-  		transition: scale(1.02) .2s;
 	}
+	.previewImg:hover {
+		display: none;
+ 	}
 	.gallery {
-		display: inline-block;
+		display: block;
 		text-align: center;
 		position: relative;
 }
