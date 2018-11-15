@@ -260,7 +260,7 @@ input[type=submit]:hover, [type=reset]:hover {
 	.previewImg {
 		margin: 1% 0.5%;
   		filter: contrast(1.2) grayscale(100%);
-  		max-width: 200px;
+  		width: 90%;
 	}
 	.previewImg:hover {
 		display: none;
@@ -269,6 +269,6 @@ input[type=submit]:hover, [type=reset]:hover {
 		display: block;
 		text-align: center;
 		position: relative;
-}
+	}
 }
 
