@@ -16,27 +16,27 @@ body {
 }
 
 h1 {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 20px;
 	text-align: center;
 }
 
 h2 {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
 }
 
 p {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 10px;
 	line-height: 15px;
 	display: inline-block;
 }
 
 nav {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', monospace;
 	font-size: 12px;
 	position: fixed;
 	top: 20%;
@@ -194,7 +194,7 @@ a.fa {
 
 
 form {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	display: block;
 	text-align: center;
 	text-justify: inter-word;
@@ -205,13 +205,13 @@ input[type=text] {
 	padding: 5px 8px;
 	margin: 8px 0;
 	box-sizing: border-box;
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 12px;
 	resize: none;
 	border: 1px solid #c6c6c6;
 }
 input[type=submit], [type=reset] {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	cursor: pointer;
 	text-decoration: none;
 	margin: 2px 2px;
@@ -312,18 +312,25 @@ input[type=submit]:hover, [type=reset]:hover {
 
 	.contact_footer {
 	display: inline-block;
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 12px;
 }
 	.about_footer {
 	display: inline-block;
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 12px;
 }
 
 p {
-	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-family: 'Roboto Mono', sans-serif;
 	font-size: 12px;
 	line-height: 17px;
 	display: inline-block;
+}
+.me {
+	display: block;
+	text-align: justify;
+	margin: auto;
+	max-width: 90%;
+    text-justify: inter-word;
 }
