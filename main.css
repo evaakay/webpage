@@ -76,6 +76,10 @@ a.work, a.about, a.contact {
 	color: #c6c6c6;
 }
 
+.contact_footer, .about_footer {
+	display: none;
+}
+
 /*#socials {
 	display: block;
 	text-align: center;
@@ -235,28 +239,24 @@ input[type=submit]:hover, [type=reset]:hover {
 	.works {
 		display: block;
 		text-align: center;
-		width: 90%;
 		margin: auto;
-		position: relative;
+		left: 0%;
 	}
-	.gallery {
+/*	.gallery {
 		display: block;
 		text-align: center;
 		position: relative;
 		margin: auto;
-	}
+	}*/
+
+
 	.previewImg {
-		-webkit-filter: grayscale(1);
-		-webkit-filter: contrast(1);
-		cursor: pointer;
-		transition: 0.3s;
-/*	display: inline-block;
-	text-align: center;*/
+		display: block;
+		text-align: center;
 		margin: 1% 0.5%;
-  		filter: contrast(1.2) grayscale(100%);
-  		width: 90%;
-  		-webkit-transition: scale(1);
-  		transition: scale(1.02) .2s;
+		max-width: 100%;
+		max-height: none;
+
 	}
 	.description {
 		display: block;
@@ -270,8 +270,8 @@ input[type=submit]:hover, [type=reset]:hover {
 		margin: auto;
 		display: block;
 		text-align: center;
-		width: 80%;
-}
+		width: 100%;
+	}
 	
 	.footer {
 		position: relative;
@@ -279,17 +279,51 @@ input[type=submit]:hover, [type=reset]:hover {
 		color: #c6c6c6;
 		text-align: center;
 		display: block;
+		max-width: 85%;
 	}
+
 	nav {
-		display: none;
+	display: none;
 	}
+
+/*	nav {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
+	position: fixed;
+	top: 20%;
+	left: 8%;
+}*/
+
 	#name {
-		position: fixed;
+		max-width: 85%;
+		position: relative;
 		text-align: center;
-		top: 10%;
+		display: block;
 		font-size: 32px;
 		color: black;
 		font-family: "Anton";
 	}
+	.work {
+		display: none;
+	}
+	.about {
+		display: none;
+	}
+
+	.contact_footer {
+	display: inline-block;
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
+}
+	.about_footer {
+	display: inline-block;
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
 }
 
+p {
+	font-family: "Lucida Sans Typewriter", sans-serif;
+	font-size: 12px;
+	line-height: 17px;
+	display: inline-block;
+}
