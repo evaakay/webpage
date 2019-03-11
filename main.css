@@ -19,6 +19,7 @@ h1 {
 	font-family: 'Roboto Mono', monospace;
 	font-size: 20px;
 	text-align: center;
+	color: #231f20;
 }
 
 h2 {
@@ -26,6 +27,7 @@ h2 {
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
+	color: #231f20;
 }
 
 p {
@@ -45,13 +47,13 @@ nav {
 
 a:link, a:visited {
 	text-decoration: none;
-	transition: 0.3s;
+	transition: 0.2s;
 	color: #c6c6c6;
 }
 
 a:hover, a:active {
 	text-decoration: none;
-	color: black;
+	color: #cab4b7;
 }
 
 
@@ -62,10 +64,8 @@ a.work, a.about, a.contact {
 #name {
 	position: fixed;
 	top: 10%;
-	font-size: 32px;
-	color: black;
 	left: 8%;
-	font-family: "Anton";
+	height: 40px;
 }
 
 
@@ -152,6 +152,14 @@ a.fa {
 	vertical-align: top;
 	margin-top:5%;
 	position: relative;
+}
+
+.eva {
+	display: block;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5%;
 }
 
 /*HOME*/
@@ -249,8 +257,33 @@ input[type=submit]:hover, [type=reset]:hover {
 		margin: auto;
 	}*/
 
+/*.previewImg {
+	-webkit-filter: grayscale(1);
+	-webkit-filter: contrast(1);
+	cursor: pointer;
+	transition: 0.3s;
+	display: inline-block;
+	text-align: center;
+	margin: 1% 0.5%;
+  	filter: contrast(1.2) grayscale(100%);
+  	max-height: 230px;
+  	-webkit-transition: scale(1);
+  	transition: scale(1.02) .2s;
+}*/
+
+.previewImg:hover {
+	-webkit-filter: none;
+	filter: none;
+    -webkit-transition: none;
+    transform: none;
+ }
 
 	.previewImg {
+		-webkit-filter: grayscale(1);
+		-webkit-filter: none;
+		filter: grayscale(100%);
+		-webkit-transition: none;
+  		transition: none;
 		display: block;
 		text-align: center;
 		margin: 1% 0.5%;
@@ -280,6 +313,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		text-align: center;
 		display: block;
 		max-width: 85%;
+		
 	}
 
 	nav {
@@ -295,13 +329,13 @@ input[type=submit]:hover, [type=reset]:hover {
 }*/
 
 	#name {
-		max-width: 85%;
 		position: relative;
-		text-align: center;
 		display: block;
-		font-size: 32px;
-		color: black;
-		font-family: "Anton";
+		left: auto;
+		margin-left: auto;
+		margin-right: auto;
+		padding-bottom: 5%;
+		height: 60px;
 	}
 	.work {
 		display: none;
@@ -309,6 +343,11 @@ input[type=submit]:hover, [type=reset]:hover {
 	.about {
 		display: none;
 	}
+
+/*	a.fa {
+		font-size: 20px;
+		width: 30px;
+	}*/
 
 	.contact_footer {
 	display: inline-block;
