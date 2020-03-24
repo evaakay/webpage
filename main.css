@@ -358,6 +358,9 @@ input[type=submit]:hover, [type=reset]:hover {
 	display: inline-block;
 	font-size: 14px;
 	}
+	a.contact_footer, a.about_footer, p.separator_footer {
+	color: black;
+	}
 p {
 	font-family: 'Roboto Mono', sans-serif;
 	font-size: 13px;
