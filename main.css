@@ -249,6 +249,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		text-align: center;
 		margin: auto;
 		left: 0%;
+		max-width: 90%;
 	}
 /*	.gallery {
 		display: block;
@@ -286,7 +287,7 @@ input[type=submit]:hover, [type=reset]:hover {
   		transition: none;
 		display: block;
 		text-align: center;
-		margin: 1% 0.5%;
+		margin: 2.5% 0.5%;
 		max-width: 100%;
 		max-height: none;
 
