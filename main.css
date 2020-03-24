@@ -32,8 +32,8 @@ h2 {
 
 p {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 10px;
-	line-height: 15px;
+	font-size: 13px;
+	line-height: 18px;
 	display: inline-block;
 }
 
@@ -76,7 +76,7 @@ a.work, a.about, a.contact {
 	color: #c6c6c6;
 }
 
-.contact_footer, .about_footer {
+.contact_footer, .about_footer, .separator_footer {
 	display: none;
 }
 
@@ -87,7 +87,7 @@ a.work, a.about, a.contact {
 }*/
 
 a.fa {
-	font-size: 12px;
+	font-size: 14px;
 	width: 20px;
 	text-decoration: none;
 }
@@ -344,26 +344,24 @@ input[type=submit]:hover, [type=reset]:hover {
 		display: none;
 	}
 
-/*	a.fa {
-		font-size: 20px;
-		width: 30px;
-	}*/
-
 	.contact_footer {
 	display: inline-block;
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
 	.about_footer {
 	display: inline-block;
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 12px;
+	font-size: 14px;
 }
-
+	.separator_footer {
+	display: inline-block;
+	font-size: 14px;
+	}
 p {
 	font-family: 'Roboto Mono', sans-serif;
-	font-size: 12px;
-	line-height: 17px;
+	font-size: 13px;
+	line-height: 18px;
 	display: inline-block;
 }
 .me {
@@ -372,4 +370,9 @@ p {
 	margin: auto;
 	max-width: 90%;
     text-justify: inter-word;
+}
+a.fa {
+	font-size: 20px;
+	width: 35px;
+	text-decoration: none;
 }
