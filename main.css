@@ -295,7 +295,7 @@ input[type=submit]:hover, [type=reset]:hover {
 	.description {
 		display: block;
 		margin: auto;
-		max-width: 80%;
+		max-width: 90%;
 		text-align: justify;
    		text-justify: inter-word;
     	color: black;
