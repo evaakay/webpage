@@ -42,7 +42,7 @@ nav {
 	font-size: 14px;
 	position: fixed;
 	top: 20%;
-	left: 8%;
+	left: 6%;
 }
 
 a:link, a:visited {
@@ -64,7 +64,7 @@ a.work, a.about, a.contact {
 #name {
 	position: fixed;
 	top: 10%;
-	left: 8%;
+	left: 6%;
 	height: 40px;
 }
 
@@ -72,7 +72,7 @@ a.work, a.about, a.contact {
 .footer {
 	position: fixed;
 	bottom: 10%;
-	left: 8%;
+	left: 6%;
 	color: #c6c6c6;
 }
 
@@ -169,12 +169,20 @@ a.fa {
 	text-align: center;
 	position: relative;
 	left: 25%;
-	max-width: 70%;
+	max-width: 75%;
 }
 .gallery {
 	display: inline-block;
-	text-align: justify;
-	position: relative;
+	height: 250px;
+	width: 300px;
+	overflow: hidden;
+	margin: 2px;
+
+}
+.gallery img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
 }
 
 .previewImg {
@@ -184,9 +192,7 @@ a.fa {
 	transition: 0.3s;
 /*	display: inline-block;
 	text-align: center;*/
-	margin: 1% 0.5%;
   	filter: contrast(1.2) grayscale(100%);
-  	max-height: 230px;
   	-webkit-transition: scale(1);
   	transition: scale(1.02) .2s;
 }
@@ -251,12 +257,17 @@ input[type=submit]:hover, [type=reset]:hover {
 		left: 0%;
 		max-width: 90%;
 	}
-/*	.gallery {
-		display: block;
-		text-align: center;
-		position: relative;
-		margin: auto;
-	}*/
+.gallery {
+	display: inline-block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.gallery img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
 /*.previewImg {
 	-webkit-filter: grayscale(1);
