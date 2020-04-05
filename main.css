@@ -291,9 +291,9 @@ input[type=submit]:hover, [type=reset]:hover {
  }
 
 	.previewImg {
-		-webkit-filter: grayscale(1);
+		-webkit-filter: grayscale(0);
 		-webkit-filter: none;
-		filter: grayscale(100%);
+		filter: grayscale(0%);
 		-webkit-transition: none;
   		transition: none;
 		display: block;
