@@ -2,7 +2,7 @@ body {
 	position: relative;
 	margin: 0;
 	padding-bottom: 6rem;
-	background-color: #f2f2f2;
+	background-color: #f7f7f7;
 	/*margin-left: 10%;*/
 	/*margin-right: 10%;*/
 	margin-top: 40px;
@@ -16,14 +16,14 @@ body {
 }
 
 h1 {
-	font-family: 'Roboto Mono', monospace;
-	font-size: 15px;
+	font-family: 'Arial Black', monospace;
+	font-size: 20px;
 	text-align: left;
 	color: #231f20;
 }
 
 /*h2 {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Arial Black', monospace;
 	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
@@ -31,41 +31,38 @@ h1 {
 }*/
 
 p {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
-	line-height: 18px;
+	line-height: 15px;
 	display: inline-block;
 }
 
 nav {
-	font-family: 'Roboto Mono', monospace;
+	font-family: 'Arial Black', monospace;
 	font-size: 14px;
 	position: fixed;
-	top: 20%;
+	top: 23%;
 	left: 6%;
+	line-height: 30px;
 }
 
 a:link, a:visited {
 	text-decoration: none;
-	transition: 0.2s;
 	color: #c6c6c6;
 }
 
 a:hover, a:active {
 	text-decoration: none;
-	color: #cab4b7;
+	color: #e6003a;
 }
 
-
-a.work, a.about, a.contact {
-	line-height: 30px;
-}
 
 #name {
 	position: fixed;
-	top: 10%;
-	left: 6%;
-	height: 40px;
+	top: 40px;
+	left: 5.5%;
+	height: 100px;
+
 }
 
 
@@ -184,7 +181,7 @@ a.fa {
 
 
 form {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Arial Black', sans-serif;
 	display: block;
 	text-align: center;
 	text-justify: inter-word;
@@ -195,13 +192,13 @@ input[type=text] {
 	padding: 5px 8px;
 	margin: 8px 0;
 	box-sizing: border-box;
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Arial Black', sans-serif;
 	font-size: 12px;
 	resize: none;
 	border: 1px solid #c6c6c6;
 }
 input[type=submit], [type=reset] {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Arial Black', sans-serif;
 	cursor: pointer;
 	text-decoration: none;
 	margin: 2px 2px;
@@ -324,7 +321,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		left: auto;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 3%;
+		padding-bottom: 4%;
 		height: 60px;
 	}
 
@@ -348,7 +345,7 @@ input[type=submit]:hover, [type=reset]:hover {
 
 	.contact_footer, .about_footer {
 	display: inline-block;
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Arial Black', sans-serif;
 	font-size: 14px;
 	padding: 10px;
 	}
@@ -358,7 +355,7 @@ input[type=submit]:hover, [type=reset]:hover {
 	}
 
 	p {
-	font-family: 'Roboto Mono', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
 	line-height: 18px;
 	display: inline-block;
