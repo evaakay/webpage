@@ -10,14 +10,15 @@ body {
 	overflow: scroll;
 }
 
-@font-face{
+/*@font-face{
     font-family: "Bebas";
     src: url('Bebas.ttf');
-}
+}*/
 
 h1 {
-	font-family: 'Arial Black', monospace;
-	font-size: 20px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
 	text-align: left;
 	color: #231f20;
 }
@@ -32,14 +33,16 @@ h1 {
 
 p {
 	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
 	font-size: 13px;
-	line-height: 15px;
+	line-height: 19px;
 	display: inline-block;
 }
 
 nav {
-	font-family: 'Arial Black', monospace;
-	font-size: 14px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
 	position: fixed;
 	top: 23%;
 	left: 6%;
@@ -132,7 +135,7 @@ a.fa {
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
-	padding: 5%;
+
 }
 
 /*HOME*/
@@ -180,7 +183,7 @@ a.fa {
 /*CONTACT*/
 
 
-form {
+/*form {
 	font-family: 'Arial Black', sans-serif;
 	display: block;
 	text-align: center;
@@ -216,7 +219,7 @@ input[type=submit]:hover, [type=reset]:hover {
 	width: 30%;
 	height: 100px;
 	box-sizing: border-box;
-}
+}*/
 
 
 
@@ -321,7 +324,7 @@ input[type=submit]:hover, [type=reset]:hover {
 		left: auto;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 4%;
+		padding-bottom: 30px;
 		height: 60px;
 	}
 
@@ -345,9 +348,10 @@ input[type=submit]:hover, [type=reset]:hover {
 
 	.contact_footer, .about_footer {
 	display: inline-block;
-	font-family: 'Arial Black', sans-serif;
-	font-size: 14px;
-	padding: 10px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 900;
+	font-size: 16px;
+	padding: 14px;
 	}
 
 	a.contact_footer, a.about_footer {
@@ -355,9 +359,8 @@ input[type=submit]:hover, [type=reset]:hover {
 	}
 
 	p {
-	font-family: 'Roboto', sans-serif;
 	font-size: 13px;
-	line-height: 18px;
+	line-height: 19px;
 	display: inline-block;
 	}
 
