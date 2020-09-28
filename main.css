@@ -62,7 +62,7 @@ a:hover, a:active {
 
 #name {
 	position: fixed;
-	top: 40px;
+	top: 30px;
 	left: 5.5%;
 	height: 100px;
 
@@ -324,8 +324,9 @@ input[type=submit]:hover, [type=reset]:hover {
 		left: auto;
 		margin-left: auto;
 		margin-right: auto;
-		padding-bottom: 30px;
-		height: 60px;
+		padding-bottom: 10px;
+		height: 100px;
+		top: 0px;
 	}
 
 	.mobile {
